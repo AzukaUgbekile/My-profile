@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #282342;
+  color: #848cb0;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+section {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  box-shadow: 0 0 1rem rgba(250, 62, 62, 0.2);
+}
+.personal {
+  background-color: #23213a;
+  padding: 2.5rem 0 1.5rem 0;
+}
+.personal .pro {
+  background-color: #ffb805;
+  color: #232138;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1.4rem;
+  left: 2rem;
+  padding: 0.1rem 0.7rem;
+  border: 1px solid #ffb805;
+  border-radius: 0.2rem;
+}
+
+.personal img {
+  width: 12rem;
+  height: 12rem;
+  border: 0.2rem solid #00add0;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.personal .name {
+  text-align: center;
+
+  /* font-size: 5rem; */
+  /* color: #ffffff; */
+  margin-top: 1.5rem;
+  /* margin-bottom: 0.5rem; */
+}
+.personal .country {
+  text-align: center;
+  font-size: 1.3rem;
+  /* color: #ffffff; */
+  margin: 0.2rem;
+  /* margin-bottom: 0.5rem; */
+}
+.personal .developer {
+  text-align: center;
+  font-size: 1.6;
+  /* color: #ffffff; */
+  margin-top: 2.5rem;
+  /* margin-bottom: 0.5rem; */
+}
+.personal .button {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 2rem;
+  /* gap: 1.5rem; */
+  text-align: center;
+  margin: 1rem;
+}
+.personal button {
+  /* display: flex; */
+  border: 1px solid #00accf;
+  justify-content: center;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  /* margin-top: 2rem; */
+}
+.personal button:hover {
+  /* background-color: #00accf; */
+  /* color: #232137; */
+  cursor: pointer;
+}
+.personal .primary {
+  background-color: #00accf;
+  color: #232137;
+  /* border: none; */
+  /* padding: 0.8rem 4.5rem; */
+  /* font-size: 1.4rem; */
+  /* border-radius: 0.5rem; */
+  margin-right: 1rem;
+  /* cursor: pointer; */
+}
+.personal .secondary {
+  background-color: transparent;
+  color: #00add0;
+  /* border: none; */
+  /* padding: 0.8rem 1.8rem; */
+  /* font-size: 1.4rem; */
+  /* border-radius: 0.5rem; */
+  /* margin-right: 1.5rem; */
+  /* cursor: pointer; */
+}
+.social {
+  text-align: center;
+}
+.social i {
+  /* text-align: center; */
+  /* margin-top: 1.5rem; */
+  /* gap: 1.5rem; */
+  margin: 1.5rem 0.4;
+  font-size: 2rem;
+  /* color: aqua; */
+}
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+.fa-github:hover {
+  color: #6cc644;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+.fa-instagram:hover {
+  color: #e1306c;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.skills {
+  background-color: #1f1a36;
+  padding: 1.6rem 1rem;
+}
+.skills h2 {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem;
+  justify-content: center; */
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.skills ul li {
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 0.2rem solid #272240;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 0.2rem 0.1rem;
+}
