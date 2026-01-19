@@ -52,78 +52,49 @@ section {
 }
 .personal .name {
   text-align: center;
-
-  /* font-size: 5rem; */
-  /* color: #ffffff; */
   margin-top: 1.5rem;
-  /* margin-bottom: 0.5rem; */
 }
 .personal .country {
   text-align: center;
   font-size: 1.3rem;
-  /* color: #ffffff; */
   margin: 0.2rem;
-  /* margin-bottom: 0.5rem; */
 }
 .personal .developer {
   text-align: center;
   font-size: 1.6;
-  /* color: #ffffff; */
   margin-top: 2.5rem;
-  /* margin-bottom: 0.5rem; */
 }
 .personal .button {
-  /* display: flex; */
   justify-content: center;
   margin-top: 2rem;
-  /* gap: 1.5rem; */
   text-align: center;
   margin: 1rem;
 }
 .personal button {
-  /* display: flex; */
   border: 1px solid #00accf;
   justify-content: center;
   padding: 0.8rem 1.8rem;
   border-radius: 0.3rem;
   font-size: 1.4rem;
-  /* margin-top: 2rem; */
 }
 .personal button:hover {
-  /* background-color: #00accf; */
-  /* color: #232137; */
   cursor: pointer;
 }
 .personal .primary {
   background-color: #00accf;
   color: #232137;
-  /* border: none; */
-  /* padding: 0.8rem 4.5rem; */
-  /* font-size: 1.4rem; */
-  /* border-radius: 0.5rem; */
   margin-right: 1rem;
-  /* cursor: pointer; */
 }
 .personal .secondary {
   background-color: transparent;
   color: #00add0;
-  /* border: none; */
-  /* padding: 0.8rem 1.8rem; */
-  /* font-size: 1.4rem; */
-  /* border-radius: 0.5rem; */
-  /* margin-right: 1.5rem; */
-  /* cursor: pointer; */
 }
 .social {
   text-align: center;
 }
 .social i {
-  /* text-align: center; */
-  /* margin-top: 1.5rem; */
-  /* gap: 1.5rem; */
   margin: 1.5rem 0.4;
   font-size: 2rem;
-  /* color: aqua; */
 }
 .fa-linkedin:hover {
   color: #0e76a8;
@@ -145,11 +116,6 @@ section {
   padding: 1.6rem 1rem;
 }
 .skills h2 {
-  /* display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 1.5rem;
-  justify-content: center; */
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
